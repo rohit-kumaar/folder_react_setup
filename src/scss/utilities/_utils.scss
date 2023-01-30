@@ -16,8 +16,8 @@
   $colors: (
     "black": $black,
     "white": $white,
-    "lightgreen": $lightgreen,
-    "black-100": $black-100,
+    // "lightgreen": $lightgreen,
+    // "black-100": $black-100,
     // "header": $header,
     // "btn": $btn,
     // "aside": $aside,
@@ -83,22 +83,22 @@
   /* ------------------- */
   /* Z-index             */
   /* ------------------- */
-  $z-indexes: (
-    indexes: (
-      -1: $z-index0,
-      1: $z-index1,
-      2: $z-index2,
-      3: $z-index3,
-      4: $z-index4,
-      5: $z-index5,
-    ),
-  );
+  // $z-indexes: (
+  //   indexes: (
+  //     -1: $z-index0,
+  //     1: $z-index1,
+  //     2: $z-index2,
+  //     3: $z-index3,
+  //     4: $z-index4,
+  //     5: $z-index5,
+  //   ),
+  // );
   
-  @each $z-index, $indexes in $z-indexes {
-    @each $index, $value in $indexes {
-      .z-#{$value} {
-        z-index: $value;
-      }
-    }
-  }
+  // @each $z-index, $indexes in $z-indexes {
+  //   @each $index, $value in $indexes {
+  //     .z-#{$value} {
+  //       z-index: $value;
+  //     }
+  //   }
+  // }
   
